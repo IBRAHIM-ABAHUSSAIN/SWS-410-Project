@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SWS 410</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Login Page -->
+    <string name="lo01">LOGIN PAGE</string>
+    <string name="lo02">Email</string>
+    <string name="lo03">Password</string>
+    <string name="lo04"></string>
+    <string name="lo05">Login</string>
+    <string name="lo06">Forget Password</string>
+    <string name="lo07">I don\&apos;t have account. Register</string>
+    
+</resources>
