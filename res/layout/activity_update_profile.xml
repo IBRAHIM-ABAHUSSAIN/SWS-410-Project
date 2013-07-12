@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UpdateProfile" >
+
+	   <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:padding="10dip" >
+
+	        <!-- View Title Label -->
+
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical|center_horizontal|center"
+	            android:gravity="center_vertical|center_horizontal|center"
+	            android:padding="10dip"
+	            android:text="@string/up01"
+	            android:textSize="25sp"
+	            android:textStyle="bold" />
+
+	        <!-- Label -->
+
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:padding="10dip"
+	            android:textSize="20sp"
+	            android:textStyle="bold"
+	            android:text="@string/up02" />
+
+	        <!-- TextField -->
+
+	        <EditText
+	            android:id="@+id/EditText01"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="text"
+	            android:padding="10dip" />
+
+	        <!-- Label -->
+
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:padding="10dip"
+	            android:textSize="20sp"
+	            android:textStyle="bold"
+	            android:text="@string/up03" />
+
+	        <!-- TextField -->
+
+	        <EditText
+	            android:id="@+id/EditText02"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="text"
+	            android:padding="10dip" />
+
+	        <!-- Label -->
+
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:padding="10dip"
+	            android:textSize="20sp"
+	            android:textStyle="bold"
+	            android:text="@string/up04" />
+
+	        <!-- TextField -->
+
+	        <EditText
+	            android:id="@+id/EditText03"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="textEmailAddress"
+	            android:padding="10dip" />
+	        
+	        <!-- Label -->
+
+	        <TextView
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:padding="10dip"
+	            android:textSize="20sp"
+	            android:textStyle="bold"
+	            android:text="@string/up05" />
+
+	        <!-- TextField -->
+
+	        <EditText
+	            android:id="@+id/EditText04"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:inputType="textPassword"
+	            android:padding="10dip" />	        	        
+
+	        <!-- Update Button -->
+
+	        <Button
+	            android:id="@+id/Button01"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dip"
+	            android:onClick="login"
+	            android:text="@string/up06" />
+
+	    </LinearLayout>
+
+</ScrollView>

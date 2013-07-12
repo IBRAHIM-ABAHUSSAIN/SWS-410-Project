@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="edu.centennial.college.sws_410"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="15" />
+        android:targetSdkVersion="15"
+        tools:ignore="OldTargetApi" />
 
     <application
         android:allowBackup="true"
@@ -21,6 +23,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.centennial.college.sws_410.MainPage"
+            android:label="@string/title_activity_main_page" >
+        </activity>
+        <activity
+            android:name="edu.centennial.college.sws_410.UpdateProfile"
+            android:label="@string/title_activity_update_profile" >
         </activity>
     </application>
 

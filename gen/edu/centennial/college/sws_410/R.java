@@ -27,13 +27,22 @@ public final class R {
         public static final int Button01=0x7f080003;
         public static final int Button02=0x7f080004;
         public static final int Button03=0x7f080005;
+        public static final int Button04=0x7f080006;
         public static final int EditText01=0x7f080000;
         public static final int EditText02=0x7f080001;
+        public static final int EditText03=0x7f08000b;
+        public static final int EditText04=0x7f08000c;
         public static final int TextView01=0x7f080002;
-        public static final int action_settings=0x7f080006;
+        public static final int action_settings=0x7f08000d;
+        public static final int textView1=0x7f080007;
+        public static final int textView2=0x7f080008;
+        public static final int textView3=0x7f080009;
+        public static final int textView4=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_main_page=0x7f030001;
+        public static final int activity_update_profile=0x7f030002;
     }
     public static final class menu {
         public static final int main=0x7f070000;
@@ -41,6 +50,11 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
+        /**  Error Messages 
+         */
+        public static final int em_01=0x7f05000c;
+        public static final int em_02=0x7f05000d;
+        public static final int hello_world=0x7f05001d;
         /**  Login Page 
          */
         public static final int lo01=0x7f050002;
@@ -50,6 +64,38 @@ public final class R {
         public static final int lo05=0x7f050006;
         public static final int lo06=0x7f050007;
         public static final int lo07=0x7f050008;
+        public static final int lo08=0x7f050009;
+        public static final int lo09=0x7f05000a;
+        public static final int lo10=0x7f05000b;
+        /**  Main Page 
+         */
+        public static final int ma01=0x7f05000e;
+        public static final int ma02=0x7f05000f;
+        public static final int ma03=0x7f050010;
+        public static final int ma04=0x7f050011;
+        public static final int ma05=0x7f050012;
+        public static final int ma06=0x7f050013;
+        public static final int ma07=0x7f050014;
+        public static final int ma08=0x7f050015;
+        public static final int ma09=0x7f050016;
+        public static final int ma10=0x7f050017;
+        public static final int ma11=0x7f050018;
+        public static final int ma12=0x7f050019;
+        public static final int ma13=0x7f05001a;
+        public static final int ma14=0x7f05001b;
+        public static final int title_activity_main_page=0x7f05001c;
+        public static final int title_activity_update_profile=0x7f05001e;
+        /**  Update Profile 
+         */
+        public static final int up01=0x7f05001f;
+        public static final int up02=0x7f050020;
+        public static final int up03=0x7f050021;
+        public static final int up04=0x7f050022;
+        public static final int up05=0x7f050023;
+        public static final int up06=0x7f050024;
+        public static final int up07=0x7f050025;
+        public static final int up08=0x7f050026;
+        public static final int up10=0x7f050027;
     }
     public static final class style {
         /** 
